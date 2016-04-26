@@ -1,0 +1,35 @@
+/* CSS declarations go here */
+.thumbnail{
+    min-height: 500px;
+    max-height: 500px;
+}
+.thumbnail-img{
+    max-height: 300px;
+    
+}
+body{
+    padding-top: 50px;
+}
+.single-image{
+    max-width: 100%;
+}
+.modal img{
+ width: 100%;
+}
+
+.loaders{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+}
+
+.image-wrapper{
+    display: none;
+}
+.modal .modal-body {
+    max-height: 420px;
+    overflow-y: auto;
+} 
